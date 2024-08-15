@@ -5,8 +5,8 @@ const divide = (arr, n) => {
 	let currentSubArray = [];
 	let currentSum = 0;
 	let result = [];
-	for(let item in arr){
-		if(currentSum+item <== n){
+	for(let item of arr){
+		if(currentSum+item <= n){
 			currentSubArray.push(item);
 			currentSum += item;
 		}
