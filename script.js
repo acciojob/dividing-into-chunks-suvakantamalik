@@ -16,10 +16,11 @@ const divide = (arr, n) => {
 			currentSum = item;
 		}
 
-		if(currentSubArray.length > 0){
+		
+	}
+	if(currentSubArray.length > 0){
 			result.push(currentSubArray);
 		}
-	}
 	return result;
 };
 
